@@ -7,6 +7,7 @@ import { useSelector } from "react-redux";
 
 export default function Post() {
     const [post, setPost] = useState(null);
+    // console.log(post)
     const { slug } = useParams();
     const navigate = useNavigate();
 
